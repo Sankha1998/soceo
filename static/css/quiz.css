@@ -19,6 +19,26 @@
 .options{
     padding: 5px;
 }
+
+
+.table-img{
+
+    
+    width: 130px;
+    height: 130px;
+
+}
+table{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.header_a, .header_b{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
@@ -32,6 +52,22 @@ and (max-device-width : 480px) {
     .options{
         font-size: 12px;
         
+    }
+    .table-img{
+        width: 50px;
+        height: 50px;
+
+    }
+    table{
+        font-size: 10px;
+        font-weight: bold;
+        text-align: left;
+        
+    }
+    .header_a, .header_b{
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
     }
     
 }
