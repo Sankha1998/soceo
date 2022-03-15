@@ -16,6 +16,9 @@
     font-size: 35px;
     font-weight: bold;
 }
+.options{
+    padding: 5px;
+}
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
@@ -28,6 +31,7 @@ and (max-device-width : 480px) {
     
     .options{
         font-size: 12px;
+        
     }
     
 }
