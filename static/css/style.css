@@ -122,10 +122,10 @@ index.html css
     font-weight: bold;
     
 }
-.home-banner p{
+.home-banner-set p{
     line-height: 3ch;
     letter-spacing: 0.05ch;
-    font-size: 20px;
+    font-size: 18px;
     
 }
 
@@ -302,7 +302,6 @@ quiz.html
 }
 
 
-
 /*
 policies and imprint
 */
@@ -323,10 +322,7 @@ policies and imprint
 game
 */
 
-.qset{
-    
-    padding: 1px;
-}
+
 .question{
     display: block;
     margin-left: auto;
@@ -348,6 +344,7 @@ game
     padding: 10px;
     
 }
+
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
@@ -428,10 +425,10 @@ and (max-device-width : 480px) {
       
         
     }
-    .home-banner p{
+    .home-banner-set p{
    
         letter-spacing: 0.05ch;
-        font-size: 20px;
+        font-size: 15px;
         
     }
     
