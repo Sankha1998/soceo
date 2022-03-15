@@ -1,0 +1,475 @@
+.body_class{
+    font-family:"Calibri, sans-serif";
+    cursor: url(cursor.png), auto;
+    
+    height: 100%;
+
+   
+}
+
+.navmain{
+    padding: 1px;
+    background-color: rgba(39, 39, 39, 0.4);
+    
+}
+.scrolled{
+
+    padding: 2px;
+    background-color:transparent;
+
+    
+}
+
+.scrolled-footer{
+
+    padding: 2px;
+    background-color:transparent;
+
+    
+}
+
+.nav-manu{
+    color: rgb(240, 238, 238);
+}
+
+.bg_set {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    background-position: center;
+  
+}
+.bg_set_1 {
+    background-image: url('background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.footer_set{
+    background-image: url('footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.footer-lower{
+   
+    background-color: rgba(39, 39, 39, 0.4);
+    
+  
+}
+
+
+.footer-lower h3{
+    padding: 10px;
+    color: #eee;
+    line-height: 15ch;
+    font-size: medium;
+    
+
+}
+.footer-lower a{
+    color: #eee;
+    text-decoration: none;
+
+}
+
+/*
+
+index.html css 
+
+*/
+
+.home-banner{
+    
+    margin-top:15%;
+    
+}
+
+.home-banner-set{
+    padding: 10px;
+    text-align: center;
+    color: #eee;
+    margin: auto;
+    width: 50%;
+    border: 3px transparent dashed;
+}
+.home-banner h1{
+
+    line-height: 2ch;
+    letter-spacing: 0ch;
+    font-size: 50px;
+    font-weight: 115;
+    
+}
+.home-banner p{
+    line-height: 3ch;
+    letter-spacing: 0.05ch;
+    font-size: 20px;
+    
+}
+
+.gif_back{
+    margin-top: 25%;
+    padding: 5px;
+    text-align:left;
+}
+.g_i_f {
+    background-image: url('logo_gif.gif');
+    background-color:transparent;
+    background-size: cover;
+    position: relative;
+    margin:0 auto;
+    height: 250px;
+   
+    width:420px;
+}
+
+.banner-2{
+    margin-top: 25%;
+    padding: 25px;
+    text-align: center;
+    color: rgb(10, 0, 0);
+
+}
+
+.banner2-set{
+    text-align: justify;
+    padding: 10px;
+    margin: auto;
+    width: 75%;
+    border: 3px transparent dashed;
+}
+.banner-2 h2{
+   
+    line-height: 3ch;
+    font-family:"Calibri, sans-serif";
+    font-size: 60px;
+    text-align: center;
+
+    
+}
+
+.banner-2 p{
+    margin-top: 3%;
+    line-height: 3ch;
+    letter-spacing: 0.05ch;
+    font-size: 30px;
+    font-family:"Calibri, sans-serif";
+    
+    
+    
+}
+
+.banner-2 hr{
+
+    left: 50%;
+    height:5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+.banner-margin-bar{
+    background-color: #FFCC33; 
+    width:100%; 
+    height: 15px;
+    
+
+}
+
+/*
+
+dashboard.html css
+**/
+input[type="checkbox"][readonly] {
+    pointer-events: none;
+  }
+.card-outer{
+    
+    width: 100%;
+    
+    margin-top: 30%;
+    background-color: #FFCC33;
+    border-radius: 15px;
+    
+    
+}
+.card-inner{
+    background-color: #FFCC33;
+    border-radius: 15px;
+    padding-left:5px;
+    
+    
+}
+.card{
+    height: 15rem;
+    border-radius: 15px;
+    padding:25px;
+}
+
+.card-body-h {
+   
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.4s ease-in-out;
+      
+}
+.card-body-h p{
+    font-size: 15px;
+    color:#000;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
+
+.card:hover{
+    height: auto;
+    transition-delay: 0.3s;
+}
+.card:hover .card-body-h{
+
+    margin-top : 25px;
+    visibility : visible;
+    opacity : 1;
+    transition-delay: 0.4s;
+    
+   
+ }
+ .card:hover .card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* 
+quiz.html
+ */
+
+ .quiz-div{
+
+     margin-top:10rem;
+     background-color: #9dd0f1;  
+     border-radius:35px;
+     width: 100%;
+ }
+
+ .quiz-div-outer{
+     
+    border-radius: 35px;
+   
+ }
+
+
+
+
+.module-details{
+
+    border-radius:0px 35px 0px 35px;
+    color: #000;
+    font-size: 25px;
+    text-align: center;
+    background-color: #FFCC33;
+  
+
+}
+
+.quiz-div-inner{
+    min-height: 250px;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+
+
+/*
+policies and imprint
+*/
+
+.custom-card{
+    border: 2px solid #eee;
+    border-radius: 5px;
+    padding: 15px;
+
+    background-color: #ffffff;
+    
+}
+
+
+
+/*
+**
+game
+*/
+
+.qset{
+    
+    padding: 1px;
+}
+.question{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+}
+.option{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+    
+}
+.game-div-inner{
+    min-height: 250px;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    
+    
+    .footer-lower h3{
+
+        padding: 2px;
+        color: #eee;
+        line-height: 10ch;
+        font-size: small;
+    
+    }
+    .footer-lower a{
+        color: #eee;
+        text-decoration: none;
+        font-size: 8px;
+    }
+
+    .g_i_f {
+        background-image: url('logo_gif.gif');
+        background-color:transparent;
+        background-size: cover;
+        position: relative;
+        margin:0 auto;
+        height: 200px;
+        width:300px;
+    }
+    
+    
+    .card-img-top {
+        width: 100%;
+        height: 25vw;
+        object-fit: cover;
+    }
+    .card{
+        height: auto;
+        border-radius: 15px;
+        padding:25px;
+    }
+
+    
+    .home-banner{
+    
+        margin-top:20%;
+        
+        text-align: center;
+        color: #eee;
+    }
+    
+    .home-banner-set{
+
+        padding: 5px;
+        text-align: center;      
+        margin: auto;
+        width: 100%;
+        border: 3px transparent dashed;
+    
+    }
+    .home-banner h1{
+        letter-spacing: 0.1ch;
+        font-size: 25px;
+      
+        
+    }
+    .home-banner p{
+   
+        letter-spacing: 0.05ch;
+        font-size: 20px;
+        
+    }
+    
+    .banner-2-set{
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        width: 100%;
+        border: 3px transparent dashed;
+    }
+
+    .banner-2 h2{
+   
+        line-height: 3ch;
+        font-family:"Calibri, sans-serif";
+        font-size: 25px;    
+        text-align: justify;
+    
+        
+    }
+    
+
+    .banner-2 p{
+        margin-top: 2%;
+        line-height: 2ch;
+        padding: 10px;
+        letter-spacing: 0.05ch;
+        font-size: 15px;
+        font-family:"Calibri, sans-serif";
+        text-align: left;
+        
+        
+    }
+
+    .qset{
+        margin-top: 5rem;
+        padding: 25px;
+    }
+
+    .question{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        height: 250px;
+    }
+
+
+    .option{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85px;
+    }
+
+
+    .game-div-inner{
+        margin-top: 50px;
+        width: 100%;
+        padding: 10px;
+        
+    }
+    
+    
+    
+}
