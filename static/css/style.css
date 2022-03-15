@@ -138,7 +138,7 @@ index.html css
 }
 
 .banner2-set{
-    text-align: left;
+    text-align: center;
     padding: 10px;
     margin: auto;
     width: 75%;
@@ -411,7 +411,7 @@ and (max-device-width : 480px) {
     }
     
     .banner-2-set{
-        text-align: center;
+        text-align: left;
         padding: 10px;
         margin: auto;
         width: 100%;
