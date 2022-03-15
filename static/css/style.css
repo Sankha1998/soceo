@@ -1,6 +1,6 @@
 .body_class{
 
-    font-family:"Carlito, sans-serif";
+    font-family: 'Calibri Light','Gill Sans','Open Sans',Geneva,Helvetica,Arial,sans-serif;
     cursor: url(cursor.png), auto;
     
     height: 100%;
@@ -28,6 +28,9 @@
 
     
 }
+.col-pad{
+    padding:25px;
+}
 
 .nav-manu{
     color: rgb(240, 238, 238);
@@ -46,6 +49,7 @@
     background-image: url('background1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+   
     
 }
 
@@ -58,7 +62,7 @@
 }
 
 .footer-lower{
-   
+    margin-top:auto;
     background-color: rgba(39, 39, 39, 0.4);
     
   
@@ -79,6 +83,16 @@
 
 }
 
+.footer-end{
+    
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+     
+}
+
 /*
 
 index.html css 
@@ -92,19 +106,20 @@ index.html css
 }
 
 .home-banner-set{
-    padding: 10px;
+    padding: 35px;
     text-align: center;
     color: #eee;
     margin: auto;
     width: 50%;
     border: 3px transparent dashed;
+    
 }
-.home-banner h1{
+.home-banner-set h1{
 
     line-height: 2ch;
     letter-spacing: 0ch;
-    font-size: 50px;
-    font-weight: 115;
+    font-size: 55px;
+    font-weight: bold;
     
 }
 .home-banner p{
@@ -193,8 +208,6 @@ input[type="checkbox"][readonly] {
 .card-outer{
     
     width: 100%;
-    
-    margin-top: 30%;
     background-color: #FFCC33;
     border-radius: 15px;
     
@@ -203,9 +216,7 @@ input[type="checkbox"][readonly] {
 .card-inner{
     background-color: #FFCC33;
     border-radius: 15px;
-    padding-left:5px;
-    
-    
+    padding-left:5px;  
 }
 .card{
     height: 15rem;
@@ -217,7 +228,7 @@ input[type="checkbox"][readonly] {
    
     visibility : hidden;
     opacity : 0;
-    transition : 0.4s ease-in-out;
+    transition : 0.3s ease-in-out;
       
 }
 .card-body-h p{
@@ -240,7 +251,7 @@ input[type="checkbox"][readonly] {
     margin-top : 25px;
     visibility : visible;
     opacity : 1;
-    transition-delay: 0.4s;
+    transition-delay: 0.3s;
     
    
  }
@@ -345,7 +356,7 @@ and (max-device-width : 480px) {
     
     
     .footer-lower h3{
-
+        
         padding: 2px;
         color: #eee;
         line-height: 10ch;
@@ -379,6 +390,19 @@ and (max-device-width : 480px) {
         border-radius: 15px;
         padding:25px;
     }
+    .upper-cover{
+        margin-top: 15%;
+    }
+    .card-outer{
+    
+        width: 100%;
+        
+     
+        background-color: #FFCC33;
+        border-radius: 15px;
+        
+        
+    }
 
     
     .home-banner{
@@ -398,7 +422,7 @@ and (max-device-width : 480px) {
         border: 3px transparent dashed;
     
     }
-    .home-banner h1{
+    .home-banner-set h1{
         letter-spacing: 0.1ch;
         font-size: 25px;
       
