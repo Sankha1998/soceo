@@ -39,6 +39,39 @@ table{
     font-size: 25px;
     font-weight: bold;
 }
+
+.changewidth{
+    width: 1000px;
+}
+
+.score, .scored-point,.asked-question-set{
+    text-align: center;
+}
+.score{
+    font-size: 25px;
+}
+.scored-point{
+    font-size: 30px;
+    color:green;
+    font-weight: bold;
+}
+.statement{
+    font-size: 35px;
+    font-weight: 100;
+}
+.asked-question-set{
+    padding: 10px;
+}
+.asked-question,.right-answer{
+    font-size: 25px;
+    font-weight: 90;
+}
+.r-ans{
+    font-weight: bold;
+}
+.btn-gap{
+    padding: 5px;
+}
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
@@ -64,11 +97,40 @@ and (max-device-width : 480px) {
         text-align: left;
         
     }
+
     .header_a, .header_b{
         text-align: center;
         font-size: 15px;
         font-weight: bold;
     }
-    
+    .changewidth{
+        width: 100%;
+    }
+
+    .score{
+        font-size: 20px;
+    }
+    .scored-point{
+        font-size: 22px;
+        color:green;
+        font-weight: bold;
+    }
+    .statement{
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .asked-question-set{
+        padding: 5px;
+    }
+    .asked-question,.right-answer{
+        font-size: 18px;
+        font-weight: 90;
+    }
+    .r-ans{
+        font-weight: bold;
+    }
+    .btn-gap{
+        padding: 3px;
+    }
 }
 
