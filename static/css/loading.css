@@ -1,6 +1,22 @@
+
+
+
+body{
+
+  position:absolute;
+
+  top:50%;
+  left:40%;
+  background-color: black;
+
+}
+
+
+
 .animation-text{
 
   font-size:25px;
+  color: #fff;
 
 }
 .loading span {
