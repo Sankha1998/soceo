@@ -68,6 +68,7 @@ table{
 }
 .r-ans{
     font-weight: bold;
+    color:green;
 }
 .btn-gap{
     padding: 5px;
@@ -120,14 +121,15 @@ and (max-device-width : 480px) {
         font-weight: 100;
     }
     .asked-question-set{
-        padding: 5px;
+        padding: 10px;
     }
     .asked-question,.right-answer{
         font-size: 18px;
-        font-weight: 90;
+        font-weight: 100;
     }
     .r-ans{
         font-weight: bold;
+        color:green;
     }
     .btn-gap{
         padding: 3px;
